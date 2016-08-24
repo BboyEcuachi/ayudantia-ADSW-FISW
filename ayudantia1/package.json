@@ -1,0 +1,18 @@
+{
+  "name": "famancil",
+  "version": "0.0.0",
+  "description": "\"Mi primer proyecto JS\"",
+  "main": "app.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "\"Felipe Mancilla S\"",
+  "license": "BSD",
+  "dependencies": {
+    "express": "~4.14.0",
+    "ip": "~1.1.3"
+  }
+}
