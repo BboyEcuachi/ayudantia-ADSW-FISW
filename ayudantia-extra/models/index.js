@@ -12,7 +12,7 @@ var opts = {
         freezeTableName: true
     }
 }
-var sequelize = new Sequelize('fisw', 'root', 'EAFGMA1992',opts);
+var sequelize = new Sequelize('test', 'root', '',opts);
 var db        = {};
 
 fs

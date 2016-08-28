@@ -1,7 +1,6 @@
 /**
  * Created by famancil on 21-08-16.
  */
-"use strict";
 
 var fs        = require("fs");
 var path      = require("path");
@@ -12,7 +11,7 @@ var opts = {
         freezeTableName: true
     }
 }
-var sequelize = new Sequelize('fisw', 'root', 'EAFGMA1992',opts);
+var sequelize = new Sequelize('test', 'root', '',opts);
 var db        = {};
 
 fs
